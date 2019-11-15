@@ -17,8 +17,8 @@ internal extension UIColor {
     ///   - weight: Proportional weight that should be given to blend color, specified as value from 0.0 to 1.0.
     /// - Returns: Blended color.
     func blend(with blendColor: UIColor, weight: CGFloat) -> UIColor {
-        var rgbaValues = Array(repeating: CGFloat(0.0), count: 4)
-        var blendRgbaValues = Array(repeating: CGFloat(0.0), count: 4)
+        let rgbaValues = Array(repeating: CGFloat(0.0), count: 4)
+        let blendRgbaValues = Array(repeating: CGFloat(0.0), count: 4)
 
         var red = rgbaValues[0]
         var green = rgbaValues[1]

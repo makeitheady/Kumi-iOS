@@ -1,23 +1,28 @@
 PODS:
-  - Kumi (0.0.5):
+  - Kumi (0.0.7):
     - Marker
-  - Marker (1.0.0)
-  - SwiftLint (0.23.1)
+  - Marker (1.2.1)
+  - SwiftLint (0.37.0)
 
 DEPENDENCIES:
   - Kumi (from `./`)
   - Marker
   - SwiftLint
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Marker
+    - SwiftLint
+
 EXTERNAL SOURCES:
   Kumi:
     :path: "./"
 
 SPEC CHECKSUMS:
-  Kumi: b7273af0ec1be5f2165a52763bd813aad06bdeef
-  Marker: f6b66b1e4507979bfdc110799793e74906010f4f
-  SwiftLint: 1b670ce79284c76520f84060e87d645078fd32fa
+  Kumi: 7fc25a82c6f1c97f5f887d8445c60bb370ca0997
+  Marker: b8f775718b2cf7c872956b9b5413121b0ce56de5
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
 
 PODFILE CHECKSUM: 96841c94f1ec746841eb6d5603807c3ae30ccf9b
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.7.5
