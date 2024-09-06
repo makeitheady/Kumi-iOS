@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 /// Encapsulates style information to be applied when displaying or animating CALayer's shadow.
 public struct ShadowStyle {

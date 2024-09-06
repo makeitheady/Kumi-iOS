@@ -6,6 +6,9 @@
 //  Copyright © 2017 Prolific Interactive. All rights reserved.
 //
 
+import Foundation
+import QuartzCore
+
 extension CABasicAnimationStyle {
 
     public init?(json: JSON) {
