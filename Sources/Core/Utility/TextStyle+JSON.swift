@@ -8,6 +8,7 @@
 
 import Foundation
 import Marker
+import UIKit
 
 private extension TextTransform {
 

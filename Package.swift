@@ -13,11 +13,18 @@ let package = Package(
             name: "Kumi",
             targets: ["Kumi"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/makeitheady/Marker.git", branch: "chore/swift-package"),
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "Kumi"),
+            name: "Kumi",
+            dependencies: [
+                .product(name: "Marker", package: "Marker")
+            ]
+        ),
         .testTarget(
             name: "KumiTests",
             dependencies: ["Kumi"]),
