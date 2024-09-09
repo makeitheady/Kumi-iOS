@@ -6,6 +6,9 @@
 //  Copyright © 2017 Prolific Interactive. All rights reserved.
 //
 
+import Foundation
+import UIKit
+
 extension UIViewAnimationStyle {
 
     public init?(json: JSON) {

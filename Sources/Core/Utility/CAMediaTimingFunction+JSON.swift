@@ -6,6 +6,8 @@
 //  Copyright © 2017 Prolific Interactive. All rights reserved.
 //
 
+import QuartzCore
+
 extension CAMediaTimingFunction {
     convenience init?(json: JSON) {
         guard let c1x = json["c1x"] as? Float,

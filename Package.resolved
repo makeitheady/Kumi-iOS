@@ -1,0 +1,15 @@
+{
+  "originHash" : "c118e49eb7203072da27365de8badf2d0c51c477540840bc77f891e43e2bdf1d",
+  "pins" : [
+    {
+      "identity" : "marker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/makeitheady/Marker.git",
+      "state" : {
+        "branch" : "chore/swift-package",
+        "revision" : "cff171b2c5df5fd535caa77a1f275acf69a929b8"
+      }
+    }
+  ],
+  "version" : 3
+}

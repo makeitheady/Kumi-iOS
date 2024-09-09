@@ -1,28 +1,34 @@
 PODS:
-  - Kumi (0.0.7):
-    - Marker
-  - Marker (1.2.1)
+  - Kumi (1.0.0)
+  - Marker (1.3.0)
   - SwiftLint (0.37.0)
 
 DEPENDENCIES:
   - Kumi (from `./`)
-  - Marker
+  - Marker (from `https://github.com/makeitheady/Marker.git`, branch `chore/swift-package`)
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - Marker
+  https://github.com/CocoaPods/specs.git:
     - SwiftLint
 
 EXTERNAL SOURCES:
   Kumi:
     :path: "./"
+  Marker:
+    :branch: chore/swift-package
+    :git: https://github.com/makeitheady/Marker.git
+
+CHECKOUT OPTIONS:
+  Marker:
+    :commit: cff171b2c5df5fd535caa77a1f275acf69a929b8
+    :git: https://github.com/makeitheady/Marker.git
 
 SPEC CHECKSUMS:
-  Kumi: 7fc25a82c6f1c97f5f887d8445c60bb370ca0997
-  Marker: b8f775718b2cf7c872956b9b5413121b0ce56de5
+  Kumi: 4344c6dee4cea8e2f7bd563f9484c24c15dd4909
+  Marker: 3dbcd037b9bf7f6c9f738fe606697385cf9fe46b
   SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
 
-PODFILE CHECKSUM: 96841c94f1ec746841eb6d5603807c3ae30ccf9b
+PODFILE CHECKSUM: b353c5ce53189e400f0404fa58eb282eebd4e10d
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.12.1

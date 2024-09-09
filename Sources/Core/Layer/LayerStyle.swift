@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import QuartzCore
+import UIKit
 
 /// Kumi layer style to encapsulate style information to be applied when displaying or animating CALayer.
 public struct LayerStyle {
